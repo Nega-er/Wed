@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    font-family: '源ノ明朝 JP Medium';
+    background-color: azure;
+
+}
+
+
+
+.pace-running .pade {
+    display:none;
+        }
+
+.kuuhaku {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.faid {
+    opacity: 0;
+    transition: .7s;
+    margin-top: 60px;
+}
+
+.faid.showUp {
+    opacity: 1;
+    margin-top: 0;
+}
+
+
+.indent {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+pre {
+    font-family: '源ノ明朝 JP';
+}
+
+header {
+    background-image: url(image/same.jpg);
+    /*墨*/
+    color: #ffffff;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: 2560px;
+    text-align: center;
+    font-family: '源ノ明朝 JP Light';
+    padding-top: 10px;
+}
+
+.head {
+    padding-left: 820px;
+    padding-top: 43px;
+}
+
+.head h1 {
+    font-size: 55px;
+    margin-top: 0px;
+}
+
+.head p {
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+
+
+
+
+
+.title {
+    margin-top: 10px;
+    background-color: #000E25;
+    border-left: 5px solid cadetblue;
+    border-bottom: 5px solid cadetblue;
+    border-right: 5px solid #000E25;
+    border-top: 5px solid #000E25;
+    box-shadow: 1px 1px 8px cadetblue;
+    margin-bottom: 4px;
+}
+
+.index3 {
+    background-color: #80aba9;
+}
+
+.index2 {
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.lnkn {
+    font-family: '源ノ明朝 JP medium';
+    background-color: cadetblue;
+    font-size: 17px;
+    height: 25px;
+    color: #ffffff;
+    padding: 8px;
+
+}
+
+.lnkn li {
+    display: inline-block;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.lnkn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.lnkn ul {
+    text-align: center;
+}
+
+
+.lnkn a:visited {
+    color: #ffffff;
+}
+
+.lnkn a:hover {
+    color: #B6B1BD;
+}
+
+.documents {
+    font-family: '源ノ明朝 JP';
+}
+
+.index li {
+    padding-left: 40px;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.subtai {
+    border-bottom: 2px solid cadetblue;
+    background-color: transparent;
+}
+
+h3 {
+    color: #000E25;
+}
+
+.index2 a {
+    text-decoration: none;
+}
+
+nav a {
+    color: #000000;
+}
+
+nav a:visited {
+    color: #000000;
+}
+
+nav a:hover {
+    color: #B6B1BD;
+}
+
+h4 {
+    padding-left: 30px;
+    font-family: '源ノ明朝 JP';
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
+.shou {
+    padding-left: 30px;
+    background-color: transparent;
+}
+
+.sabsab {
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+
+h5 {
+    font-size: 15px;
+    font-family: '源ノ角ゴシック JP';
+    padding: 0px;
+}
+
+footer {
+    text-align: center;
+    font-size: 9px;
+    color: #ffffff;
+    font-family: '源ノ明朝 JP Light';
+    background-color: #595857;
+}
+
+footer h3 {
+    color: #ffffff;
+}
