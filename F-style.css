@@ -75,8 +75,14 @@ h2 {
 }
 
 
-
-
+.index4 {
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 0px;
+    text-decoration: none;
+}
 
 
 .title {
@@ -101,9 +107,8 @@ h2 {
     color: #000000;
 }
 
-.lnkn {
+.lnkn2 {
     font-family: '源ノ明朝 JP medium';
-    background-color: cadetblue;
     font-size: 17px;
     height: 25px;
     color: #ffffff;
@@ -111,27 +116,25 @@ h2 {
 
 }
 
-.lnkn li {
+.lnkn2 li {
     display: inline-block;
-    padding-right: 60px;
-    padding-left: 60px;
 }
 
-.lnkn a {
+.lnkn2 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
-.lnkn ul {
+.lnkn2 ul {
     text-align: center;
 }
 
 
-.lnkn a:visited {
-    color: #ffffff;
+.lnkn2 a:visited {
+    color: #000000;
 }
 
-.lnkn a:hover {
+.lnkn2 a:hover {
     color: #B6B1BD;
 }
 
@@ -192,6 +195,13 @@ h5 {
     font-family: '源ノ角ゴシック JP';
     padding: 0px;
 }
+
+.honbun{
+    padding-left: 40px;
+    font-size:15px;
+    
+}
+
 
 footer {
     text-align: center;

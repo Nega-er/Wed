@@ -126,6 +126,11 @@ h2 {
     font-size: 15px;
 }
 
+.shut{
+    color:#ffffff;
+    background-color: #000000;
+}
+
 .subtai {
     border-bottom: 2px solid cadetblue;
     background-color: transparent;
