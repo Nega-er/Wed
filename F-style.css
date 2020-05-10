@@ -13,8 +13,8 @@ div {
 
 
 .pace-running .pade {
-    display:none;
-        }
+    display: none;
+}
 
 .kuuhaku {
     padding-left: 30px;
@@ -196,14 +196,16 @@ h5 {
     padding: 0px;
 }
 
-.honbun{
+.honbun {
     padding-left: 40px;
-    font-size:15px;
-    
+    font-size: 15px;
+
 }
 
 
 footer {
+    padding-top:10px;
+    padding-bottom; 10px;
     text-align: center;
     font-size: 9px;
     color: #ffffff;
