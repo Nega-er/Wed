@@ -104,6 +104,8 @@ h2 {
     color: #ffffff;
 }
 
+   
+    
 .lnkn ul {
     text-align: center;
 }
@@ -171,7 +173,19 @@ h4 {
 .honbun {
     padding-left: 40px;
     font-size: 15px;
+}
 
+.dounyu p{
+    font-size: 30px;
+    padding:40px;
+}
+
+.dounyu{
+    padding:300px;
+    background-repeat: no-repeat;
+    background-image:url(image/額.png);
+    background-size: 1200px;
+    background-position: center;
 }
 
 .sabsab {
