@@ -12,6 +12,11 @@ div {
     display: none;
 }
 
+@media(min-width:999px){
+    .si{
+        width:750px;
+    }
+}
 .indent {
     padding-left: 30px;
     padding-right: 30px;
@@ -74,6 +79,7 @@ h2 {
 
 .index3 {
     background-color: #80aba9;
+    margin: 1000px;
 }
 
 .index2 {
@@ -104,8 +110,8 @@ h2 {
     color: #ffffff;
 }
 
-   
-    
+
+
 .lnkn ul {
     text-align: center;
 }
@@ -128,8 +134,8 @@ h2 {
     font-size: 15px;
 }
 
-.shut{
-    color:#ffffff;
+.shut {
+    color: #ffffff;
     background-color: #000000;
 }
 
@@ -175,17 +181,80 @@ h4 {
     font-size: 15px;
 }
 
-.dounyu p{
-    font-size: 30px;
-    padding:40px;
-}
-
-.dounyu{
-    padding:300px;
+/*.dounyu {
+    padding: 400px;
     background-repeat: no-repeat;
-    background-image:url(image/額.png);
+    background-image: url(image/額.png);
     background-size: 1200px;
     background-position: center;
+}*/
+
+/*.dounyu {
+  position: relative;
+  width: 100%;
+  padding-top: 85%; // ?ココ
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}*/
+
+@media(max-width:999px) {
+    .dounyu p {
+        position: relative;
+    }
+
+    .dounyu {
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+    }
+
+    .dounyu img {
+        margin-top: 45px;
+        margin-left: -135px;
+        margin-bottom: 45px;
+        width:870px;
+        height:780px;
+    }
+
+    .dounyu span {
+        position: absolute;
+        top: 215px;
+        left: -10px;
+        right: -10px;
+        font-size: 28px;
+    }
+}
+
+@media (min-width:1000px) {
+    .dounyu p {
+        position: relative;
+    }
+
+    .dounyu {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+    }
+
+    .dounyu img {
+        margin-top: 45px;
+        margin-left: -95px;
+        margin-bottom: 45px;
+    }
+
+    .dounyu span {
+        position: absolute;
+        top: 190px;
+        left: 70px;
+        right: 70px;
+        font-size: 28px;
+    }
 }
 
 .sabsab {
@@ -201,8 +270,8 @@ h5 {
 
 footer {
     text-align: center;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 9px;
     color: #ffffff;
     font-family: '源ノ明朝 JP Light';
