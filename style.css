@@ -12,11 +12,13 @@ div {
     display: none;
 }
 
-@media(min-width:999px){
+
+@media(max-width:999px){
     .si{
         width:750px;
     }
 }
+*/
 .indent {
     padding-left: 30px;
     padding-right: 30px;
