@@ -111,10 +111,9 @@ h2 {
 
 .lnkn a {
     text-decoration: none;
+    position: relative;
     color: #ffffff;
 }
-
-
 
 .lnkn ul {
     text-align: center;
@@ -124,8 +123,25 @@ h2 {
     color: #ffffff;
 }
 
+
+.lnkn a::after {
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: all 0.3s ease 0s;
+}
+
 .lnkn a:hover {
-    color: #B6B1BD;
+    color:#000E25;
+    cursor: pointer;
+}
+
+.lnkn a:hover::after {
+    width: 100%;
 }
 
 .documents {
@@ -222,8 +238,8 @@ iframe {
         margin-top: 45px;
         margin-left: -135px;
         margin-bottom: 45px;
-        width:870px;
-        height:780px;
+        width: 870px;
+        height: 780px;
     }
 
     .dounyu span {
