@@ -118,10 +118,12 @@ h2 {
 
 .lnkn2 li {
     display: inline-block;
+    margin-bottom:10px;
 }
 
 .lnkn2 a {
     text-decoration: none;
+    position:relative;
     color: #000000;
 }
 
@@ -134,8 +136,24 @@ h2 {
     color: #000000;
 }
 
+.lnkn2 a::after {
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: all 0.3s ease 0s;
+}
+
 .lnkn2 a:hover {
-    color: #B6B1BD;
+    color:#000000;
+    cursor: pointer;
+}
+
+.lnkn2 a:hover::after {
+    width: 100%;
 }
 
 .documents {
