@@ -173,6 +173,7 @@ h3 {
 }
 
 nav a {
+    position: relative;
     color: #000000;
 }
 
@@ -180,8 +181,24 @@ nav a:visited {
     color: #000000;
 }
 
+nav a::after {
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #000E25;
+    transition: all 0.3s ease 0s;
+}
+
 nav a:hover {
-    color: #B6B1BD;
+    color: #000000;
+    cursor: pointer;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 h4 {
