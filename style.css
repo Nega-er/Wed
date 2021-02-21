@@ -87,7 +87,7 @@ h2 {
 }
 
 .index2 {
-    list-style-type: none;
+    #list-style-type: none;
     padding-left: 40px;
     font-size: 15px;
     color: #000000;
