@@ -5,11 +5,15 @@
 
 
 div {
-    font-family: '源ノ明朝 JP Medium';
+    font-family: 'hare';
     background-color: azure;
 
 }
 
+@font-face {
+    font-family: 'hare';
+    src: url('/fonts/Harenosora.otf') format('opentype');
+}
 
 
 .pace-running .pade {
@@ -40,7 +44,7 @@ div {
 }
 
 pre {
-    font-family: '源ノ明朝 JP';
+    font-family: 'hare';
 }
 
 header {
@@ -51,7 +55,7 @@ header {
     background-repeat: no-repeat;
     background-size: 2560px;
     text-align: center;
-    font-family: '源ノ明朝 JP Light';
+    font-family: 'hare';
     padding-top: 10px;
 }
 
@@ -108,7 +112,7 @@ h2 {
 }
 
 .lnkn2 {
-    font-family: '源ノ明朝 JP medium';
+    font-family: 'hare';
     font-size: 17px;
     height: 25px;
     color: #ffffff;
@@ -157,7 +161,7 @@ h2 {
 }
 
 .documents {
-    font-family: '源ノ明朝 JP';
+    font-family: 'hare';
 }
 
 .index li {
@@ -193,7 +197,7 @@ nav a:hover {
 
 h4 {
     padding-left: 30px;
-    font-family: '源ノ明朝 JP';
+    font-family: 'hare';
     font-size: 18px;
     padding-bottom: 2px;
 }
@@ -210,7 +214,7 @@ h4 {
 
 h5 {
     font-size: 15px;
-    font-family: '源ノ角ゴシック JP';
+    font-family: 'hare';
     padding: 0px;
 }
 
@@ -223,11 +227,11 @@ h5 {
 
 footer {
     padding-top:10px;
-    padding-bottom; 10px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 9px;
     color: #ffffff;
-    font-family: '源ノ明朝 JP Light';
+    font-family: 'hare';
     background-color: #595857;
 }
 
