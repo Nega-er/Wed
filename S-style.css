@@ -1,11 +1,17 @@
+@font-face {
+    font-family: 'hare';
+    src: url('/fonts/Harenosora.otf') format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'hare';
 }
 
 
 div {
-    font-family: '源ノ明朝 JP Medium';
+    /* font-family: '源ノ明朝 JP Medium'; */
     background-color: azure;
 
 }
@@ -49,7 +55,7 @@ img {
 }
 
 pre {
-    font-family: '源ノ明朝 JP';
+    /* font-family: '源ノ明朝 JP'; */
 }
 
 header {
@@ -60,7 +66,7 @@ header {
     background-repeat: no-repeat;
     background-size: 2560px;
     text-align: center;
-    font-family: '源ノ明朝 JP Light';
+    /* font-family: '源ノ明朝 JP Light'; */
     padding-top: 10px;
 }
 
@@ -117,7 +123,7 @@ h2 {
 }
 
 .lnkn2 {
-    font-family: '源ノ明朝 JP medium';
+    /* font-family: '源ノ明朝 JP medium'; */
     font-size: 17px;
     height: 25px;
     color: #ffffff;
@@ -169,7 +175,7 @@ h2 {
 
 
 .documents {
-    font-family: '源ノ明朝 JP';
+    /* font-family: '源ノ明朝 JP'; */
 }
 
 .index li {
@@ -217,7 +223,7 @@ nav a:hover {
 
 h4 {
     padding-left: 30px;
-    font-family: '源ノ明朝 JP';
+    /* font-family: '源ノ明朝 JP'; */
     font-size: 18px;
     padding-bottom: 2px;
 }
@@ -234,7 +240,7 @@ h4 {
 
 h5 {
     font-size: 15px;
-    font-family: '源ノ角ゴシック JP';
+    /* font-family: '源ノ角ゴシック JP'; */
     padding: 0px;
 }
 
@@ -247,12 +253,11 @@ h5 {
 
 footer {
     padding-top: 10px;
-    padding-bottom;
-    10px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 9px;
     color: #ffffff;
-    font-family: '源ノ明朝 JP Light';
+    /* font-family: '源ノ明朝 JP Light'; */
     background-color: #595857;
 }
 
