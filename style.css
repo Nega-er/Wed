@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'hare';
+    src: url('/fonts/Harenosora.otf') format('opentype');
+}
+
 div {
-    font-family: '源ノ明朝 JP Medium';
+    font-family: 'hare';
     background-color: azure;
 }
 
@@ -13,13 +18,9 @@ div {
 }
 
 
-/*
-@media(max-width:999px){
-    .si{
-        width:750px;
-    }
+.wrapper {
+    font-weight: bold;
 }
-*/
 
 .indent {
     padding-left: 30px;
@@ -27,7 +28,7 @@ div {
 }
 
 pre {
-    font-family: '源ノ明朝 JP';
+    font-family: 'hare';
 }
 
 header {
@@ -38,7 +39,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    font-family: '源ノ明朝 JP Light';
+    font-family: 'はれのそら明朝', 'Yu Gothic UI';
 }
 
 .icon {
@@ -87,14 +88,14 @@ h2 {
 }
 
 .index2 {
-    #list-style-type: none;
+    /* list-style-type: none; */
     padding-left: 40px;
     font-size: 15px;
     color: #000000;
 }
 
 .lnkn {
-    font-family: '源ノ明朝 JP medium';
+    font-family: 'hare';
     background-color: cadetblue;
     font-size: 17px;
     height: 25px;
@@ -136,7 +137,7 @@ h2 {
 }
 
 .lnkn a:hover {
-    color:#000E25;
+    color: #000E25;
     cursor: pointer;
 }
 
@@ -145,7 +146,7 @@ h2 {
 }
 
 .documents {
-    font-family: '源ノ明朝 JP';
+    font-family: 'hare';
 }
 
 .index li {
@@ -184,7 +185,7 @@ nav a:visited {
 nav a::after {
     position: absolute;
     content: '';
-    bottom: 1.5px;
+    bottom: -1px;
     left: 0;
     width: 0;
     height: 2px;
@@ -203,7 +204,7 @@ nav a:hover::after {
 
 h4 {
     padding-left: 30px;
-    font-family: '源ノ明朝 JP';
+    font-family: 'hare';
     font-size: 18px;
     padding-bottom: 2px;
 }
@@ -301,7 +302,7 @@ iframe {
 
 h5 {
     font-size: 15px;
-    font-family: '源ノ角ゴシック JP';
+    font-family: 'hare';
     padding: 0px;
 }
 
@@ -311,7 +312,7 @@ footer {
     padding-bottom: 10px;
     font-size: 9px;
     color: #ffffff;
-    font-family: '源ノ明朝 JP Light';
+    font-family: 'hare';
     background-color: #595857;
 }
 
