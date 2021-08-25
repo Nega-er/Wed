@@ -3,13 +3,18 @@
 
 <!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
-  <loc>https://settled-writing-room.netlify.app/f/</loc>
+  <loc>https://sedimented-writing-room.netlify.app/</loc>
   <priority>1.0</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://settled-writing-room.netlify.app/f/index.html</loc>
+  <loc>https://sedimented-writing-room.netlify.app/F.html</loc>
   <priority>0.8</priority>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://sedimented-writing-room.netlify.app/index.html</loc>
+  <priority>0.7</priority>
   <changefreq>always</changefreq>
 </url>
 
